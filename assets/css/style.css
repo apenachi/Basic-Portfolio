@@ -2,7 +2,10 @@
 	box-sizing: border-box;
 	text-align: center;
 }
-
+html {
+	position: relative;
+	height: 100%;
+}
 body {
 	background: linear-gradient(white, gray, white);/* #e0e0e0;*/
 }
@@ -39,8 +42,11 @@ footer {
 	background-color: #666666;
 	height: 50px;
 	line-height: 50px;
-	/*border-top: 2px solid #dddddd;*/
+	border-top: 5px solid #4aaaa5;
 	clear: both;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
 }
 h1 {
 	font-size: 32px;
@@ -117,4 +123,7 @@ nav {
 a {
 	text-decoration: none;
 	color: #777777;
+}
+.menu li:hover {
+	background-color: #4aaaa5;
 }
