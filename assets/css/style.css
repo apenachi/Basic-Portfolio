@@ -94,6 +94,7 @@ p {
 }
 a {
 	text-decoration: none;
+	font-family: Arial;
 	color: #777777;
 }
 p, li{
@@ -110,8 +111,14 @@ p, li{
 .menu li {
 	float: left;
 	width: 75px;
+	height: 25px;
 	margin: 0 auto;
+	line-height: 25px;
 	text-align: center;
+}
+.menu li:hover {
+	background-color: #4aaaa5;
+	font-color: #ffffff;
 }
 .vertical {
 	border-right: 1px solid #cccccc;
@@ -122,6 +129,7 @@ p, li{
 	margin: 0 auto;
 	border-top: 2px solid #dddddd;
 	width: 135px;
+
 }
 .icons li {
 	float: left;
@@ -133,6 +141,4 @@ p, li{
 #mid{
 	margin: 0 15px;
 }
-.menu li:hover {
-	background-color: #4aaaa5;
-}
+
