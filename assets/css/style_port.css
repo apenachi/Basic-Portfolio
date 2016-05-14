@@ -3,6 +3,17 @@ article {
 	position: relative;
 	margin: 10 auto;
 	height: 100%;
+
+}
+img {
+	border-radius: 5%;
+}
+article img:hover {
+    /*border-radius: 85%;*/
+
+    width: 200px;
+    height: 200px;
+    margin: 0px;
 }
 article h2 {
 	position: absolute;
@@ -14,7 +25,6 @@ article h2 {
 	color: white;
 	line-height: 30px;
 	margin: 0px;
-	padding: 0px;
 	border-bottom: 0px;
 	text-align: center;
 }
